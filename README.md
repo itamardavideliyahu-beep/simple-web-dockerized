@@ -48,8 +48,7 @@ Open in your browser:
 
     docker build -t simple-web-dockerized .
 
-### Run the container
-
+    
 ### Run the container
 
     docker run -d -p 5000:5000 --name simple-web simple-web-dockerized
